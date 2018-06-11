@@ -59,8 +59,9 @@ export class AppComponent implements OnInit, OnDestroy {
   ) {}
 
   private static trackPageView(event: NavigationEnd) {
-    (<any>window).ga('set', 'page', event.urlAfterRedirects);
-    (<any>window).ga('send', 'pageview');
+    console.info("Page View : " + event.urlAfterRedirects);
+    //(<any>window).ga('set', 'page', event.urlAfterRedirects);
+    //(<any>window).ga('send', 'pageview');
   }
 
   private static isIEorEdge() {
