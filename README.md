@@ -4,26 +4,23 @@ by [@rnanania](https://github.com/rnanania/)
 
 ## Table of Content
 
-  * [Live Demo](https://tomastrajan.github.io/angular-ngrx-material-starter)
+  * [Live Demo](Demo Link)
   * [Getting Started](#getting-started)
   * [Useful Commands](#useful-commands)
   * [Make It Your Own](#make-it-your-own)
-  * [Learning Materials](#learning-materials)
-  * [List of Projects Built Using This Starter](https://github.com/tomastrajan/angular-ngrx-material-starter/blob/master/BUILT_WITH.md)
   * [Features](#features)
   * [Stack](#stack)
-  * [Code of Conduct](https://github.com/tomastrajan/angular-ngrx-material-starter/blob/master/CODE_OF_CONDUCT.md)
-  * [Contributors Guide](https://github.com/tomastrajan/angular-ngrx-material-starter/blob/master/CONTRIBUTING.md)
-  * [Changelog](https://github.com/tomastrajan/angular-ngrx-material-starter/blob/master/CHANGELOG.md) ( get notified about the newest releases, [follow Release Butler](https://twitter.com/releasebutler) on Twitter )
+  * [Changelog](https://github.com/rnanania/ng-starter/blob/master/CHANGELOG.md)
 
 
 ## Getting started
 ```bash
-git clone https://github.com/tomastrajan/angular-ngrx-material-starter.git my-app
+git clone https://github.com/rnanania/ng-starter.git my-app
 cd my-app
 npm install
 npm start
 ```
+
 
 ## Useful Commands
   * `npm start` - starts a dev server and opens browser with running app
@@ -41,35 +38,10 @@ When using this starter project to build your own app you might consider some of
   * rename project in `package.json` `name` property and set appropriate version (eg `0.0.0` or `1.0.0`)
   * rename app in `src/environments/` files (will be shown in browser tab)
   * delete pre-existing `CHANGELOG.md` (you will generate your own with future releases of your features)
-  * delete `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md` and `BUILT_WITH.md` files as they are relevant only if project is open sourced on Github
-  * remove or adjust links in the [footer](https://github.com/tomastrajan/angular-ngrx-material-starter/blob/master/src/app/app.component.html#L79)
+  * remove or adjust links in the [footer](https://github.com/rnanania/ng-starter/blob/master/src/app/app.component.html#L79)
   * replace logo in `src/assets` folder ( currently 128 x 128 pixel `png` file )
   * adjust colors in `src/themes/default-theme.scss`
-  * create a pull request in the [original repository](https://github.com/tomastrajan/angular-ngrx-material-starter/) to update `BUILT_WITH.md` [file](https://github.com/tomastrajan/angular-ngrx-material-starter/blob/master/BUILT_WITH.md) with a link and short description of your project
-  
-#### Continuous Integration
-Starter project is using [Travis CI](https://travis-ci.org/) for running linters and tests on every commit.
-Based on your preferences and needs you can either:
-
-  * not use / use other CI server and delete both `.travis.yml` and `.travis-deploy.sh`
-  * create Travis CI account and link it to your projects Github repo and [configure build](https://medium.com/@tomastrajan/continuous-deployment-of-client-side-apps-with-github-pages-travis-ci-10e9d641a889) 
-    with `GH_REF` and `GH_TOKEN` environment variables for automatic deployment of releases to Github Pages
-  
-
-## Learning Materials
-Articles with content that explains various approaches used to build this starter project.
-
-  * [Blog post about Best Practices for Angular CLI](https://medium.com/@tomastrajan/6-best-practices-pro-tips-for-angular-cli-better-developer-experience-7b328bc9db81) used in this starter project
-  * [Blog post about Typescript tips for Ngrx reducer code](https://medium.com/@tomastrajan/object-assign-vs-object-spread-in-angular-ngrx-reducers-3d62ecb4a4b0)
-  * [Blog post about building responsive layouts with Bootstrap 4 in Angular apps](https://medium.com/@tomastrajan/how-to-build-responsive-layouts-with-bootstrap-4-and-angular-6-cfbb108d797b)
-  * [Blog post about displaying loading indicator before app startup](https://medium.com/@tomastrajan/how-to-style-angular-application-loading-with-angular-cli-like-a-boss-cdd4f5358554)
-
-#### Theming 
-
-  * [Blog post](https://medium.com/@tomastrajan/the-complete-guide-to-angular-material-themes-4d165a9d24d1)
-  * [Presentation (Slides)](http://slides.com/tomastrajan/angular-material-themes-guide#/)
-  * [Live coding Video Tutorial](https://www.youtube.com/watch?v=PsgZjFTAleI)
-  * [Meetup Presentation & Live coding Video](https://www.youtube.com/watch?v=7auj9RfCNrE)
+  * create a pull request in the [original repository](https://github.com/rnanania/ng-starter) to update `BUILT_WITH.md` [file](https://github.com/rnanania/ng-starter/blob/master/BUILT_WITH.md) with a link and short description of your project
 
  
 ## Features
@@ -81,17 +53,20 @@ Articles with content that explains various approaches used to build this starte
 * `@ngrx/effects` for API requests
 * fully responsive design
 * angular-material and custom components in `SharedModule`
+
  
 ## Stack
 
 * Angular
-* ngrx (or try [ngx-model](https://github.com/tomastrajan/ngx-model) if you prefer less boilerplate)
+* ngrx
 * Angular Material
 * Bootstrap 4 (only reset, utils and grids)
+
 
 ## Troubleshooting
 
 * **Blocking at emitting LicenseWebpackPlugin when npm start** - try using [cnpm](https://github.com/cnpm/cnpm) instead of npm
+
 
 ### Acknowledgements
 
