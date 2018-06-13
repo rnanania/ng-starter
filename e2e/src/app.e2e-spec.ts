@@ -1,3 +1,4 @@
+import {} from 'jasmine';
 import { AppPage } from './app.po';
 
 import { getCurrentRouteUrl } from './utils';
@@ -7,14 +8,14 @@ describe('App', () => {
 
   beforeEach(() => (page = new AppPage()));
 
-  it('should redirect to "about" route', () => {
+  it('should redirect to "about" route', async () => {
     page.navigateTo();
-    expect(getCurrentRouteUrl()).toEqual('about');
+    expect<any>(getCurrentRouteUrl()).toEqual('about');
   });
 
   it('should display current year in the footer', () => {
     page.navigateTo();
-    expect(page.getCurrentYear()).toEqual(new Date().getFullYear().toString());
+    expect<any>(page.getCurrentYear()).toEqual(new Date().getFullYear().toString());
   });
 
   it('should have "About", "Features", "Examples" menus', () => {
