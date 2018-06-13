@@ -1,9 +1,9 @@
 @import '~@angular/material/theming';
 
-@mixin anms-child-component-theme($theme) {
+@mixin nr-child-component-theme($theme) {
   $warn: map-get($theme, warn);
 
-  anms-child {
+  nr-child {
     > div {
       border-color: mat-color($warn);
 

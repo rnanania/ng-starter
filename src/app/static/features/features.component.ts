@@ -4,7 +4,7 @@ import { environment as env } from '@env/environment';
 import { ROUTE_ANIMATIONS_ELEMENTS } from '@app/core';
 
 @Component({
-  selector: 'anms-features',
+  selector: 'nr-features',
   templateUrl: './features.component.html',
   styleUrls: ['./features.component.scss']
 })

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'anms-child',
+  selector: 'nr-child',
   templateUrl: './child.component.html',
   styleUrls: ['./child.component.scss']
 })

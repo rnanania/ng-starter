@@ -27,11 +27,11 @@ describe('TodosComponent', () => {
   const getTodos = () => fixture.debugElement.queryAll(By.css('.todo'));
   const deleteDoneTodosBtn = () =>
     fixture.debugElement.query(
-      By.css('anms-big-input-action[fontIcon="fa-trash"] > button')
+      By.css('nr-big-input-action[fontIcon="fa-trash"] > button')
     );
   const addTodoBtn = () =>
     fixture.debugElement.query(
-      By.css('anms-big-input-action[fontIcon="fa-plus"] > button')
+      By.css('nr-big-input-action[fontIcon="fa-plus"] > button')
     );
 
   beforeEach(

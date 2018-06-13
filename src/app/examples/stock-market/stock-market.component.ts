@@ -9,7 +9,7 @@ import {
 } from './stock-market.reducer';
 
 @Component({
-  selector: 'anms-stock-market',
+  selector: 'nr-stock-market',
   templateUrl: './stock-market.component.html',
   styleUrls: ['./stock-market.component.scss']
 })

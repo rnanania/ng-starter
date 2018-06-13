@@ -24,7 +24,7 @@ import {
 } from './settings';
 
 @Component({
-  selector: 'anms-root',
+  selector: 'nr-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   animations: [routeAnimations]
@@ -59,9 +59,9 @@ export class AppComponent implements OnInit, OnDestroy {
   ) {}
 
   private static trackPageView(event: NavigationEnd) {
-    console.info("Page View : " + event.urlAfterRedirects);
-    //(<any>window).ga('set', 'page', event.urlAfterRedirects);
-    //(<any>window).ga('send', 'pageview');
+    console.log('Page View : ' + event.urlAfterRedirects);
+    // (<any>window).ga('set', 'page', event.urlAfterRedirects);
+    // (<any>window).ga('send', 'pageview');
   }
 
   private static isIEorEdge() {
